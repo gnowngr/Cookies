@@ -7,13 +7,17 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f8f5f0;
+            background-image: url('cookies.jpg');
+            background-size: cover;
+            background-position: center 60%;
+            background-attachment: fixed;
             margin: 0;
             padding: 0;
             text-align: center;
+            color: #333;
         }
         header {
-            background-color: #d9a066;
+            background-color: rgba(217, 160, 102, 0.8);
             color: white;
             padding: 20px 10px;
         }
@@ -23,19 +27,26 @@
         p {
             margin: 20px auto;
             font-size: 1.2em;
-            color: #333;
+            color: white;
         }
-        .cookie-image {
-            margin-top: 20px;
-            max-width: 100%;
-            height: auto;
+        .recipe {
+            margin: 20px;
+            padding: 20px;
+            background-color: rgba(255, 248, 231, 0.9);
+            border: 1px solid #e0c097;
             border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: left;
+            display: inline-block;
+            max-width: 600px;
+        }
+        .recipe h2 {
+            text-align: center;
+            color: #d9a066;
         }
         footer {
             margin-top: 30px;
             font-size: 0.9em;
-            color: #666;
+            color: #fff;
         }
     </style>
 </head>
@@ -44,10 +55,24 @@
         <h1>Willkommen zu meinen selbstgemachten Cookies!</h1>
     </header>
     <main>
-       
+        <div class="recipe">
+            <h2>Rezept für Selbstgemachte Cookies</h2>
+            <h3>Zutaten:</h3>
+            <ul>
+                <li>110 g Butter, weich</li>
+                <li>175 g Zucker</li>
+                <li>¼ Päckchen Vanillezucker</li>
+                <li>¼ TL Salz</li>
+                <li>1 Ei</li>
+                <li>150 g dunkle Schokolade, gehackt, oder Schokoladewürfelchen</li>
+                <li>160 g Mehl</li>
+                <li>1 Msp. Backpulver</li>
+            </ul>
+            <h3>Zubereitung:</h3>
+            <p>Butter rühren, bis sich die Spitzchen bilden. Zucker, Vanillezucker, Salz und Ei beigeben, rühren, bis die Masse hell ist. Schokolade darunterrühren. Mehl und Backpulver mischen, dazusieben, zu einem geschmeidigen Teig verrühren.</p>
+            <p>Mit 2 Teelöffeln knapp baumnussgroße Teigkugeln auf die vorbereiteten Bleche legen. Mit kalt abgespülten Händen leicht flachdrücken, so dass sie 1 cm hoch werden, 15 Minuten kühl stellen.</p>
+            <p>Ofen auf 155°C Heißluft vorheizen (175°C Ober-/Unterhitze). In der Mitte des vorgeheizten Ofens 11-13 Minuten backen.</p>
+        </div>
     </main>
-    <footer>
-        
-    </footer>
 </body>
 </html>
